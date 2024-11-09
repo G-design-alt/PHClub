@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant and Health Club (PHC)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Title Section -->
+    <header>
+        <h1>PHC: Plant and Health Club</h1>
+        <p>Discover the health benefits of plants and how they can improve your well-being.</p>
+    </header>
+
+    <!-- Plant Information Section -->
+    <section id="plant-section">
+        <!-- Plant 1: Aloe Vera -->
+        <div class="plant">
+            <h2>Aloe Vera</h2>
+            <img src="https://via.placeholder.com/150" alt="Aloe Vera">
+            <p>Aloe Vera is known for its soothing properties. It helps with skin care and digestion.</p>
+        </div>
+
+        <!-- Plant 2: Lavender -->
+        <div class="plant">
+            <h2>Lavender</h2>
+            <img src="https://via.placeholder.com/150" alt="Lavender">
+            <p>Lavender is often used for its calming effects, reducing stress and promoting relaxation.</p>
+        </div>
+
+        <!-- Plant 3: Basil -->
+        <div class="plant">
+            <h2>Basil</h2>
+            <img src="https://via.placeholder.com/150" alt="Basil">
+            <p>Basil is rich in antioxidants and can boost the immune system and reduce inflammation.</p>
+        </div>
+    </section>
+
+    <!-- Contact Button Section -->
+    <section id="contact-section">
+        <button onclick="showContactInfo()">Contact Us</button>
+        <div id="contact-info" style="display: none;">
+            <p>Email us at:</p>
+            <p><a href="mailto:jjingwoo17@gmail.com">jjingwoo17@gmail.com</a></p>
+            <p><a href="mailto:admissions@tcis.or.kr">admissions@tcis.or.kr</a></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
